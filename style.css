@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #001233;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/*-----------------------------------------------------*/
+/*---------------------H E A D E R---------------------*/
+/*-----------------------------------------------------*/
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: #0466C8;
+    height: 90vh;
+    width: 20vw;
+    margin-left: 10vw;
+    position: fixed;
+    border-radius: 25px;
+}
+
+section {
+    border-radius: 25px;
+    background-color: #023E7D;
+    height: 80vh;
+    width: 45vw;
+    margin-left: 35vw;
+    margin-top: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+header img {
+    margin: 7.5%;
+    width: 40%;
+    border-radius: 100%;
+}
+
+header h1{
+    margin: 0;
+    margin-left: 7.5%;
+}
+
+header h2{
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0;
+    margin-left: 7.5%;
+}
+
+.nav-page{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.nav-page a{
+    margin-left: 7.5%;
+    margin-bottom: 7%;
+    font-weight: 600;
+    transition-duration: 250ms;
+}
+
+.nav-page a:hover{
+    color: #002855;
+}
+
+.nav-page i {
+    margin-right: 5%;
+    font-weight: 600;
+}
+
+.nav-social{
+    font-weight: 200;
+    margin: 0;
+    display: flex;
+    width: 75%;
+    justify-content: space-evenly;
+}
+
+.nav-social a {
+    margin-top: 3vh;
+}
+
+header p {
+    margin-left: 7.5%;
+    margin-top: 7.5%;
+    font-size: 0.5em;
+    
+}
+
+scroll-container {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+scroll-page {
+    
+}
+
+
+/*-----------------------------------------------------*/
+/*--------------------A C C U E I L--------------------*/
+/*-----------------------------------------------------*/
+
+#accueil div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+    padding-left: 5vw;
+}
+
+#accueil h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+#accueil h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.button{
+    background-color: #001233;
+    text-decoration: none;
+    border-radius: 25px;
+    border-style: none;
+    height: 7%;
+    width: 20%;
+    color: white;
+    font-weight: 600;
+}
+
+.button:hover{
+    background-color: #979DAC;
+}
+
+/*------------------------------------------------------*/
+/*--------------------A  P R O P O S--------------------*/
+/*------------------------------------------------------*/
+
+.section-header-title {
+    margin: 0;
+}
+
+.section-header-canvas {
+    margin: 0;
+    width: 2vw;
+    height: 0.2vh;
+    background-color: red;
+}
