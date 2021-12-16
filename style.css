@@ -98,13 +98,9 @@ header p {
     
 }
 
-scroll-container {
+#page1 scroll-page {
     overflow-y: scroll;
-    scroll-behavior: smooth;
-}
-
-scroll-page {
-    
+    scroll-behavior: smooth;   
 }
 
 
