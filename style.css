@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html {
+    scroll-behavior: smooth;
+    cursor: default;
+    user-select: none;
+}
 
 body {
     padding: 0;
@@ -6,6 +11,7 @@ body {
     background-color: #001233;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    scroll-behavior: smooth;
 }
 
 /*-----------------------------------------------------*/
@@ -98,9 +104,9 @@ header p {
     
 }
 
-#page1 scroll-page {
+scroll-container {
     overflow-y: scroll;
-    scroll-behavior: smooth;   
+    scroll-behavior: smooth;
 }
 
 
@@ -153,6 +159,6 @@ header p {
 .section-header-canvas {
     margin: 0;
     width: 2vw;
-    height: 0.2vh;
+    height: 0.3vh;
     background-color: red;
 }
