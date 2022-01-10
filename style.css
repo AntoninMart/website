@@ -152,7 +152,29 @@ scroll-container {
 /*--------------------A  P R O P O S--------------------*/
 /*------------------------------------------------------*/
 
+.box-propos {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 100%;
+    
+    flex-direction: row;
+}
+
+.box-presentation{
+    display: block;
+    width: 50%;
+}
+
+.box-info{
+    display: block;
+    width: 50%;
+    margin-left: 2vw;
+    
+}
+
 .section-header-title {
+    padding-left: 20vw;
     margin: 0;
 }
 
@@ -161,4 +183,14 @@ scroll-container {
     width: 2vw;
     height: 0.3vh;
     background-color: red;
+}
+
+#propos h2{
+    font-size: 2em; 
+}
+
+#propos h3{
+    margin-top: 0;
+    font-size: 1.2em;
+    font-weight: 400;
 }
