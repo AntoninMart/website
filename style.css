@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@100..700&display=swap');
+
 html {
     scroll-behavior: smooth;
     cursor: default;
@@ -8,7 +10,7 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background-color: #001233;
+    background-color: #161616;
     font-family: 'Montserrat', sans-serif;
     color: white;
     scroll-behavior: smooth;
@@ -114,13 +116,13 @@ scroll-container {
 /*--------------------A C C U E I L--------------------*/
 /*-----------------------------------------------------*/
 
-#accueil div {
+#accueil {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: auto;
     height: 100%;
     padding-left: 5vw;
+    max-height: 80vh;
 }
 
 #accueil h1 {
@@ -146,6 +148,73 @@ scroll-container {
 
 .button:hover{
     background-color: #979DAC;
+}
+
+/*------------------------------------------------------*/
+/*--------------------A N I M  T E X T------------------*/
+/*------------------------------------------------------*/
+
+.home-anim {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    color: #fff;
+    font-family: "Roboto Mono", monospace;
+    font-size: 100px;
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+
+
+.home-anim span:nth-child(1){
+    color: #4285F4;
+    animation: animText 0.8s ease-in-out infinite;
+}
+
+.home-anim span:nth-child(2){
+    color: #42f46e;
+    animation: animText 1.2s ease-in-out infinite;
+}
+
+.home-anim span:nth-child(3){
+    color: #f1f442;
+    animation: animText 1.6s ease-in-out infinite;
+}
+
+.home-anim span:nth-child(4){
+    color: #f44242;
+    animation: animText 1.8s ease-in-out infinite;
+}
+
+.home-anim span:nth-child(5){
+    color: #4285F4;
+    animation: animMark 1s ease-in-out infinite;
+}
+
+@keyframes animText {
+    0%{
+        font-weight: 200;
+    }
+    50%{
+        font-weight: 900;
+    }
+    100%{
+        font-weight: 200;
+    }
+}
+
+@keyframes animMark{
+    0%{
+        transform: rotate(30deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(30deg);
+    }
 }
 
 /*------------------------------------------------------*/
@@ -194,3 +263,4 @@ scroll-container {
     font-size: 1.2em;
     font-weight: 400;
 }
+
