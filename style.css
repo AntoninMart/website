@@ -136,7 +136,7 @@ scroll-container {
 }
 
 .button{
-    background-color: #001233;
+    background-color: #FFC857;
     text-decoration: none;
     border-radius: 25px;
     border-style: none;
@@ -147,7 +147,7 @@ scroll-container {
 }
 
 .button:hover{
-    background-color: #979DAC;
+    background-color: #e9b54d;
 }
 
 /*------------------------------------------------------*/
@@ -170,61 +170,61 @@ scroll-container {
 /*E T U D I A N T*/
 
 .home-anim span:nth-child(1){
-    color: #c34be0;
+    color: #fff;
     animation: animText 0.8s ease-in-out infinite;
 }
 
 .home-anim span:nth-child(2){
-    color: #EBEBD3;
+    color: #fff;
     animation: animText 1.2s ease-in-out infinite;
 }
 
 .home-anim span:nth-child(3){
-    color: #F4D35E;
+    color: #fff;
     animation: animText 1.6s ease-in-out infinite;
 }
 
 .home-anim span:nth-child(4){
-    color: #EE964B;
+    color: #fff;
     animation: animText 1.8s ease-in-out infinite;
 }
 
 /*I N G E N I E U R*/
 
 .home-anim span:nth-child(5){
-    color: #EE964B;
+    color: #fff;
     animation: animText 0.8s ease-in-out infinite;
 }
 
 .home-anim span:nth-child(6){
-    color: #F4D35E;
+    color: #fff;
     animation: animText 1.2s ease-in-out infinite;
 }
 
 .home-anim span:nth-child(7){
-    color: #EBEBD3;
+    color: #fff;
     animation: animText 1.6s ease-in-out infinite;
 }
 
 .home-anim span:nth-child(8){
-    color: #c34be0;
+    color: #fff;
     animation: animText 2.2s ease-in-out infinite;
 }
 
 .home-anim span:nth-child(9){
-    color: #EE964B;
+    color: #fff;
     animation: animText 2.4s ease-in-out infinite;
 }
 
 .home-anim span:nth-child(10){
-    color: #EBEBD3;
+    color: #fff;
     animation: animText 2.6s ease-in-out infinite;
 }
 
 /* ! */
 
 .home-anim span:nth-child(11){
-    color: #F95738;
+    color: #fff;
     animation: animMark 1s ease-in-out infinite;
 }
 
@@ -258,10 +258,8 @@ scroll-container {
 
 .box-propos {
     display: flex;
-    flex-direction: column;
     margin: auto;
     height: 100%;
-    
     flex-direction: row;
 }
 
@@ -289,6 +287,14 @@ scroll-container {
     background-color: #FFC857;
 }
 
+/* Schéma parcours */
+.section-schema-canvas {
+    margin: 0;
+    width: 0.2vw;
+    height: 30vh;
+    background-color: #FFC857;
+}
+
 #propos h2{
     font-size: 2em; 
 }
@@ -299,3 +305,85 @@ scroll-container {
     font-weight: 400;
 }
 
+/*-----------------------------------------------------*/
+/*--------------------P A R C O U R S------------------*/
+/*-----------------------------------------------------*/
+
+#parcours img{
+    width: 80%;
+    padding-bottom: 20%;
+}
+
+.graph-parcours{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bobox-experience{
+    margin-top: 5%;
+    background-color: #19647E;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bobox-experience-2{
+    margin-top: 5%;
+    background-color: #19647E;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.experience-text{
+    margin: 2%;
+    
+}
+
+.canvas-parcours{
+    margin: 0;
+    width: 0.3vw;
+    height: 17vh;
+    background-color: #FFC857;
+}
+
+/*-----------------------------------------------------*/
+/*--------------------P R O J E T ---------------------*/
+/*-----------------------------------------------------*/
+
+.box-projet{
+    display: flex;
+    margin: auto;
+    background-color: red;
+    padding: 5%;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.projet-1{
+    background-color: seagreen;
+    margin: 5%;
+    padding: 5%;
+}
+
+.projet-2{
+    background-color: sienna;
+    margin: 5%;
+    padding: 5%;
+}
+
+
+/*-----------------------------------------------------*/
+/*--------------------C O N T A C T--------------------*/
+/*-----------------------------------------------------*/
+
+.last {
+    margin-bottom: 5vh;
+}
