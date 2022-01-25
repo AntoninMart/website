@@ -310,6 +310,8 @@ scroll-container {
 /*-----------------------------------------------------*/
 
 #parcours img{
+    margin-top: 2vh;
+    margin-left: 2vh;
     width: 80%;
     padding-bottom: 20%;
 }
@@ -352,31 +354,59 @@ scroll-container {
     width: 0.3vw;
     height: 17vh;
     background-color: #FFC857;
+    margin-left: 2vh;
+    margin-bottom: 2vh;
 }
 
 /*-----------------------------------------------------*/
 /*--------------------P R O J E T ---------------------*/
 /*-----------------------------------------------------*/
 
+#projet img{
+    justify-content: center;
+}
+
 .box-projet{
     display: flex;
     margin: auto;
-    background-color: red;
     padding: 5%;
     flex-direction: row;
     margin-top: 2%;
+    max-height: 60vh;
+    
 }
 
 .projet-1{
-    background-color: seagreen;
+    background-color: #19647E;
     margin: 5%;
     padding: 5%;
+    border-radius: 20px;
+    text-align: center;
+    min-width: 25vh;
 }
 
 .projet-2{
-    background-color: sienna;
+    background-color: #19647E;
     margin: 5%;
     padding: 5%;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.button1{
+    background-color: #FFC857;
+    text-decoration: none;
+    border-radius: 25px;
+    border-style: none;
+    height: 7%;
+    width: 20vh;
+    color: white;
+    font-weight: 600;
+}
+
+.button1:hover{
+    background-color: #e9b54d;
 }
 
 
