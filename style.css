@@ -10,11 +10,27 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background-color: #efefef;
+    /* background-color: #efefef; */
     font-family: 'Montserrat', sans-serif;
     color: black;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
+    background-image: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);
+    background-size: 400% 400%;
+    animation: bganimation 15s infinite;
 }
+
+@keyframes bganimation {
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+  
 
 /*-----------------------------------------------------*/
 /*---------------------H E A D E R---------------------*/
@@ -36,7 +52,7 @@ header {
 
 section {
     border-radius: 25px;
-    background-color: #ffffff;
+    background-color: #fefcfb;
     min-height: 80vh;
     height: auto;
     width: 45vw;
@@ -139,7 +155,7 @@ scroll-container {
 }
 
 .button{
-    background-color: #FFC857;
+    background-color: #ff7948;
     text-decoration: none;
     border-radius: 25px;
     border-style: none;
@@ -147,10 +163,12 @@ scroll-container {
     width: 20%;
     color: white;
     font-weight: 600;
+    text-align: center;
+    padding-top: 2vh;
 }
 
 .button:hover{
-    background-color: #e9b54d;
+    background-color: #f06938;
 }
 
 /*------------------------------------------------------*/
@@ -361,9 +379,10 @@ scroll-container {
     margin: 0;
     width: 0.3vw;
     height: 17vh;
-    background-color: #FFC857;
+    background-color: white;
     margin-left: 2vh;
     margin-bottom: 2vh;
+    margin-top: 2vh;
 }
 
 /*-----------------------------------------------------*/
