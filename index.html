@@ -63,20 +63,23 @@
     <section id="propos">
         <h1>A propos</h1>
         <canvas class="section-header-canvas"></canvas>
-        <div class="box-propos">
-            <div class="box-presentation">
-                <h2>Bonjour, </h2> 
-                <h3>Je suis actuellement en deuxième année d'école d'ingénieur à CESI en spécialité informatique, 
-                    Je me passionne pour le développement (Python, Nodejs, C, C++, C#, REACT, HTML, CSS, JS).  </h3>
-            </div>
-            <div class="box-info">
-                <h2>Informations</h2>
-                <h3>Age : 19 ans</h3>
-                <h3>Nom : Martinez Antonin</h3>
-                <h3>Date de naissance : 16 / 10 / 2002</h3>
-                <h3>Email : antonin5151@gmail.com</h3>
-            </div>
-        </div> 
+        <div class="wrapper2">
+            <div class="flex-container">
+              <div class="boite 1">
+                  <h1>Bonjour,</h1>
+                  <p>
+                    Je suis actuellement en deuxième année d'école d'ingénieur à CESI en spécialité informatique, 
+                    Je me passionne pour le développement (Python, Nodejs, C, C++, C#, REACT, HTML, CSS, JS). 
+                  </p>
+              </div>
+              <div class="boite 2">
+                    <h1>Informations</h1>
+                    <p>Age : 19 ans</p>
+                    <p>Nom : Martinez Antonin</p>
+                    <p>Date de naissance : 16 / 10 / 2002</p>
+                    <p>Email : antonin5151@gmail.com</p>
+              </div>
+        </div>
     </section>
 
     <!--E X P E R I E N C E S-->
@@ -92,30 +95,21 @@
         <h1>Parcours</h1>
         <canvas class="section-header-canvas"></canvas>
 
-        
-        <div class="bobox-experience">
-            <div class="graph-parcours">
-                <!-- <img src="images/student1.png" alt="yo"> -->
-                <canvas class="canvas-parcours"></canvas>
-            </div>
-            <div class="experience-text">
-                <h3>CESI 2020 - 2022</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nisi est perspiciatis natus incidunt explicabo officia dolor sint animi non, voluptate ducimus excepturi, hic perferendis veritatis corrupti impedit veniam error!</p>
-            </div>
+        <div class="vtl">
+        <div class="event">
+            <p class="date">CESI Ecole d'ingénieur</p>
+            <p class="txt">2020 - 2022</p>
         </div>
-        
-        <div class="bobox-experience-2">
-            <div class="graph-parcours">
-                <!-- <img src="images/student1.png" alt="yo"> -->
-                <canvas class="canvas-parcours"></canvas>
-            </div>
-            <div class="experience-text">
-                <h3>LYCEE ST JEAN BAPTISTE 2018 - 2020</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nisi est perspiciatis natus incidunt explicabo officia dolor sint animi non, voluptate ducimus excepturi, hic perferendis veritatis corrupti impedit veniam error!</p>
-            </div>
-            
+        <div class="event">
+            <p class="date">Lycée St Jean Baptiste</p>
+            <p class="txt">2018 - 2020</p>
         </div>
-       
+        <div class="event">
+            <p class="date">Lycée Sacré-coeur</p>
+            <p class="txt">2017 - 2018</p>
+        </div>
+        </div>
+        </div>
         
     </section>
 
@@ -123,18 +117,34 @@
     <section id="projets">
         <h1>Projets</h1>
         <canvas class="section-header-canvas"></canvas>
-
-        <div class="box-projet">
-            <div class="projet-1">
-                <img src="images/3x.png" alt="">
-                <h1>DUMBOT</h1>
-                <p>Création d'un bot Discord en Node js. Obtention de la certification pour notre Bot</p>
-                <input type="button" class="button1" value="En savoir plus" onclick="window.location.href='https://top.gg/fr/bot/786972690405523518'">
+            <div class="wrapper">
+                <div class="flex-container">
+                  <div class="box one">
+                      <h1>Dumbot</h1>
+                      <img src="images/3x.png" class="image-ine" alt="">
+                      <p>Création d’un bot certifié par Discord. 
+                        Ce dernier ayant rejoint plus de 250 communautés et 
+                        ayant été utilisé par plus de 50.000 utilisateurs de la plateforme.
+                      </p>
+                      <input type="button" class="button1" value="En savoir plus">
+                  </div>
+                  <div class="box two">
+                      <h1>Script Siren</h1>
+                      <img src="images/inetum.png" class="image-ine" alt="" >
+                      <p>Réalisation d'un script pouvant acquérir et garder à jour les données d'une API dans une base de données. 
+                         L'accès à cette dernière devant également être sécurisé. Le projet ayant pour but de sécuriser les saisies 
+                         des clients dans l'application de l'entreprise
+                      </p>
+                  </div>
+                  <div class="box three">
+                      <h1>Site portfolio</h1>
+                      <img src="images/Site_logo.png" class="image-ine" alt="" >
+                      <p>
+                        Développement et hébergement de ce site web 
+                      </p>
+                  </div>
+                </div>
             </div>
-            <div class="Projet-2">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur obcaecati tenetur magni architecto blanditiis maxime, dicta quia omnis nemo quos totam at ullam veritatis, optio ipsa aut dolor facilis voluptatem?</p>
-            </div>
-        </div>
     </section>
 
     <!--C O N T A C T-->
